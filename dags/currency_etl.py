@@ -47,10 +47,10 @@ def extract_currency_data(**kwargs):
 def transform_currency_data(**kwargs):
     # 수집할 통화 쌍 리스트와 통화 이름 매핑
     tickers = {
-        "KRW=X": "Korean Won",
-        "JPY=X": "Japanese Yen",
-        "CNY=X": "Chinese Yuan",
-        "EURUSD=X": "Euro"
+        "KRW=X": "KRW",
+        "JPY=X": "JPY",
+        "CNY=X": "CNY",
+        "EURUSD=X": "EUR"
     }
 
     # 데이터를 병합할 리스트
