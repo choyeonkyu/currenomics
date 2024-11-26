@@ -76,7 +76,7 @@ def extract(**kwargs):
     fred = Fred(api_key=api_key)
 
     # PPIACO 데이터 가져오기 (생산자 물가 지수)
-    ppi_data = fred.get_series(SERIES_ID, start_date='2019-01-01')
+    ppi_data = fred.get_series(SERIES_ID, observation_start='2019-01-01')
 
     # pandas로 포팅 시 테이블 스키마 명시
     ppi_df = pd.DataFrame({
