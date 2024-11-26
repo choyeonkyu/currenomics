@@ -77,7 +77,7 @@ def extract(**kwargs):
     fred = Fred(api_key=api_key)
 
     # CPIAUCSL 데이터 가져오기
-    cpi_data = fred.get_series(SERIES_ID, start_date='2019-01-01')
+    cpi_data = fred.get_series(SERIES_ID, observation_start='2019-01-01')
 
     # pandas로 포팅 시 테이블 스키마 명시
     cpi_df = pd.DataFrame({
