@@ -210,6 +210,20 @@
 </br>
 </br>
 
+## 슬랙 봇 활용
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/Currenomics/currenomics/blob/main/images/slack_bot.gif">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <span>슬랙 봇으로 주요 국가 환율, S&P500 지수, 브렌트유 가격 확인</span>
+    </td>
+  </tr>
+</table>
+
 ## ⚙System Architecture
 
 ### 시스템 아키텍처
