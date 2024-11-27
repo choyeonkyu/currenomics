@@ -156,8 +156,8 @@ COPY_INTO_SQL = f"""
 # DAG 정의
 dag = DAG(
     dag_id="currency",
-    start_date=datetime(2023, 1, 1, tzinfo=pytz.timezone("Asia/Seoul")),
-    schedule="0 9 * * *",
+    start_date=datetime(2023, 1, 1),
+    schedule="0 0 * * *",
     catchup=False,
     default_args={
         "retries": 1,
