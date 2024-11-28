@@ -354,7 +354,7 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/choyeonkyus">
+      <a href="https://github.com/choyeonkyu">
         <b>조연규</b>
       </a>
     </td>
